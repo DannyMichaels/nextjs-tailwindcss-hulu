@@ -1,13 +1,19 @@
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Hulu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      hulu app
+
+      {/* Header */}
+      <Header />
+      {/* Nav */}
+
+      {/* Results */}
     </div>
   );
 }

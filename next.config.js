@@ -1,5 +1,5 @@
 module.exports = {
   images: {
-    domains: ['image.tmdb.org'],
+    domains: ['image.tmdb.org'], // permit images sources from other domains
   },
 };

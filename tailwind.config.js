@@ -3,7 +3,12 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'], // allows tailwind to clean css that we don't end up using
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      // make own breakpoints
+      screens: {
+        '3xl': '2000px',
+      },
+    },
   },
   variants: {
     extend: {},
